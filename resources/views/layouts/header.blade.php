@@ -7,7 +7,9 @@
 
 
 
-    <img src="{{ asset('img/chel.png') }}" alt="" class="icon">
+    <a href="{{ route('profile') }}">
+        <img src="{{ asset('img/chel.png') }}" alt="" class="icon">
+    </a>
 </header>
     @else
     <header>
@@ -22,6 +24,5 @@
         <a href="{{ route('reg') }}">Зарегистрироваться</a>
             </div>
         </div>
-        {{--    <img src="{{ asset('img/chel.png') }}" alt="" class="icon">--}}
     </header>
 @endif

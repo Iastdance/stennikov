@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,14 +12,12 @@ class HomeController extends Controller
 
         $products = Product::all();
 
-        $brand_name = Product::distinct()->pluck('brand');
-
-        return view('home', compact('products', 'brand_name'));
+        return view('home', compact('products'));
     }
 
     public function brand($brand) {
 
-        $products = Product::find($brand);
+        $products = Product::where('brand', $brand)->groupBy('brand')->get();
 
         return view('brand', compact('products'));
     }

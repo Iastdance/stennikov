@@ -82,13 +82,13 @@ a {
 }
 
 .btn {
-    border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
     display: flex;
     justify-content: center;
     font-size: 24px;
     color: black;
+    background-color: white;
 }
 
 .brands1 {
@@ -152,6 +152,12 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.box3 img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 
 .container3{
@@ -244,6 +250,11 @@ footer span {
     align-items: center;
 }
 
+.box4 img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container5{
     display: flex;
     margin: 15px 175px 0px 175px;
@@ -326,6 +337,249 @@ footer span {
     margin-top: 100px;
     margin-left: 1px;
     width: 400px;
+}
+
+.container7 {
+    display: flex;
+    margin: 15px 175px 0px 175px;
+    font-size: 20px;
+}
+
+.box5 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+}
+
+.nameproduct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandproduct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.container8 {
+    display: flex;
+    margin: 15px 175px 0px 175px;
+    font-size: 20px;
+}
+
+.box6 {
+    width: 190px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box7 {
+    width: 190px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy {
+    display: flex;
+    margin-left: 50px;
+}
+
+.btn4 {
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    margin-top: 70px;
+}
+
+.box8 {
+    width: 90px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 img {
+    max-width: 70%;
+    height: auto;
+}
+
+.box9 {
+    width: 90px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box9 img {
+    max-width: 90%;
+    height: auto;
+}
+
+.personalaccount {
+    display: flex;
+    margin-left: 175px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.container9 {
+    display: flex;
+    margin: 15px 175px 0px 175px;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.information {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.btn5 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+    width: 400px;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.fam {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.email {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.cart {
+    display: flex;
+    margin-left: 175px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.container10 {
+    display: flex;
+    margin: 15px 175px 0px 175px;
+    gap: 30px;
+    font-size: 20px;
+
+}
+
+.description2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+
+.box10 {
+    width: 90px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+hr {
+    border: none;
+    background-color: black;
+    height: 1px;
+    width: 20%;
+    margin-left: 175px;
+    margin-top: 20px;
+}
+
+.description3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 175px;
+}
+
+.btn6 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    margin-top: 100px;
+    width: 400px;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-left: 175px;
+}
+
+.box11 {
+    width: 90px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box11 img {
+    max-width: 90%;
+    height: auto;
 }
 
 

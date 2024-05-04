@@ -7,8 +7,8 @@
 
     <span class="productbrand">Товары от бренда</span>
     <div class="container3">
-    <div class="box3">Фото</div>
-    <div class="box3">Фото</div>
-    <div class="box3">Фото</div>
+                <a href="{{ route('product') }}">
+                    <div class="box3"><img src="{{ asset('img/' . $product->name . $product->brand .'.png') }}"></div>
+                </a>
     </div>
 @endsection
